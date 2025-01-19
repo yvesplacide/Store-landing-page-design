@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Heaven kitchen restaurant</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body class="">
+    <header>
+      <nav
+        class="navbar fixed-top navbar-expand-lg"
+        id="navbar"
+        style="
+          background-color: rgba(25, 22, 16, 0.4);
+          backdrop-filter: blur(10px);
+        "
+      >
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
+            href="#"
+            style="color: white; font-family: 'comic sans ms', sans-serif"
+            >YVALSHOP
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                yvalShop
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#heros"
+                    >Accueil</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#produits"
+                    >Nos Produits</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="heros">
+        <div class="" id="child-heros">
+          <div>
+            <h1
+              style="
+                color: white;
+                font-family: 'Pacifico', sans-serif;
+                font-weight: bolder;
+              "
+            >
+              Bienvenue chez nous ! Découvrez des produits de qualité et des
+              offres exclusives. Commencez votre shopping dès maintenant et
+              faites-vous plaisir !
+            </h1>
+          </div>
+          <img
+            src="images/background1-removebg-preview.png"
+            alt=""
+            id="heros"
+            class="img-fluid"
+          />
+        </div>
+      </section>
+      <h2 class="mt-0 ms-5" style="font-family: 'Pacifico', sans-serif">
+        Explorez nos produits ! Qualité et style au rendez-vous !
+      </h2>
+      <section class="produit">
+        <div
+          class="row d-flex flex-row justify-content-center gap-2 p-2 flex-lg-nowrap"
+        >
+          <div class="col-3 card" style="width: 18rem" id="card">
+            <img
+              src="iphone14pro-removebg-preview.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Iphone 14 Pro</h5>
+              <p class="card-text">
+                L'iPhone 14 Pro est un smartphone haut de gamme d'Apple, avec un
+                écran Super Retina XDR de 6,1 pouces,
+              </p>
+              <a href="#" class="btn btn-success">Acheter maintenant</a>
+            </div>
+          </div>
+          <div class="col-3 card" style="width: 18rem" id="card">
+            <img
+              src="casque-removebg-preview.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Casque Tech Tok</h5>
+              <p class="card-text">
+                Plonge dans un univers sonore incroyable avec notre casque
+                Bluetooth ultra-léger !
+              </p>
+              <a href="#" class="btn btn-success">Acheter maintenant</a>
+            </div>
+          </div>
+
+          <div class="col-3 card" style="width: 18rem" id="card">
+            <img
+              src="airpodshuawei-removebg-preview.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Airpods Huawei</h5>
+              <p class="card-text">
+                Ecouteurs sans fil offrant une qualité sonore immersive,
+              </p>
+
+              <a href="#" class="btn btn-success">Acheter maintenant</a>
+            </div>
+          </div>
+          <div class="col-3 card" style="width: 18rem" id="card">
+            <img
+              src="montre2-removebg-preview.png"
+              class="card-img-top"
+              alt="Coq au vin"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Montre Omega</h5>
+              <p class="card-text">
+                Pièce d'horlogerie de luxe, réputée pour son artisanat suisse
+                exceptionnel,
+              </p>
+
+              <a href="#" class="btn btn-success">Acheter maintenant</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row d-flex flex-row justify-content-center gap-2 p-2 flex-lg-nowrap"
+        >
+          <div class="col-3 card" style="width: 18rem" id="card">
+            <img
+              src="images/Television-removebg-preview.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Télévision 32 pouces Full HD</h5>
+              <p class="card-text">
+                Profitez d'images nettes et vibrantes avec cette TV compacte.
+                Idéale pour les petits espaces.
+              </p>
+              <a href="#" class="btn btn-success">Acheter maintenant</a>
+            </div>
+          </div>
+          <div class="col-3 card" style="width: 18rem" id="card">
+            <img
+              src="images/makbook_pro-removebg-preview.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Macbook Pro</h5>
+              <p class="card-text">
+                Puissant et élégant, le MacBook Pro offre des performances de
+                pointe avec son processeur rapide et son écran Retina éclatant.
+              </p>
+              <a href="#" class="btn btn-success">Acheter maintenant</a>
+            </div>
+          </div>
+
+          <div class="col-3 card" style="width: 18rem" id="card">
+            <img
+              src="images/montre_rolex-removebg-preview.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Montre Rolex</h5>
+              <p class="card-text">
+                Symbole d'élégance et de précision, la Rolex allie artisanat
+                exceptionnel et innovation horlogère.
+              </p>
+
+              <a href="#" class="btn btn-success">Acheter maintenant</a>
+            </div>
+          </div>
+          <div class="col-3 card" style="width: 18rem" id="card">
+            <img
+              src="images/RedmiC65-removebg-preview.png"
+              class="card-img-top"
+              alt="Coq au vin"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Redmi C65</h5>
+              <p class="card-text">
+                Ce smartphone abordable offre un écran HD+ immersif et une
+                performance fluide grâce à son processeur puissant.
+              </p>
+
+              <a href="#" class="btn btn-success">Acheter maintenant</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="info pb-4">
+        <div class="row bg-danger-subtle m-5" id="texte-info">
+          <div class="col-md-6">
+            <p
+              style="font-family: 'comic sans ms', sans-serif; font-size: 20px"
+            >
+              Profitez de notre offre exclusive ! Bénéficiez d'une réduction de
+              50% sur nos casques. Ne manquez pas cette occasion, valable
+              jusqu'à épuisement des stocks
+            </p>
+            <div>
+              <a href="#" class="btn btn-danger">Acheter maintenant</a>
+            </div>
+          </div>
+          <div class="col-md-6" id="bg-danger">
+            <img
+              src="images/background2-removebg-preview.png"
+              alt=""
+              class="img-fluid2"
+            />
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center gap-4">
+          <div class="col-md-4 card" style="width: 23rem" id="card">
+            <img
+              src="images/casque_orange-removebg-preview.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div>
+                <h5 class="card-title">Casque Bluetooth sans fil - Modèle A</h5>
+                <p class="card-text">
+                  Écoutez votre musique préférée avec un son de haute qualité et
+                  des basses profondes.
+                </p>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center gap-2 mt-3"
+              >
+                <a href="#" class="btn btn-success">Acheter maintenant</a>
+                <h5>50% de reduction</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 card" style="width: 23rem" id="card">
+            <img
+              src="images/casqueblanc-removebg-preview.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div>
+                <h5 class="card-title">Casque Bluetooth sans fil - Modèle B</h5>
+                <p class="card-text">
+                  Profitez d'une expérience audio immersive grâce à ce casque
+                  avec technologie de réduction de bruit active.
+                </p>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center gap-2 mt-3"
+              >
+                <a href="#" class="btn btn-success">Acheter maintenant</a>
+                <h5>50% de reduction</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 card" style="width: 23rem" id="card">
+            <img
+              src="images/casquegray-removebg-preview.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <div>
+                <h5 class="card-title">Casque Bluetooth sans fil - Modèle C</h5>
+                <p class="card-text">
+                  Avec sa connexion rapide et stable, ce casque est idéal pour
+                  les appels et les séances de sport.
+                </p>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center gap-2 mt-3"
+              >
+                <a href="#" class="btn btn-success">Acheter maintenant</a>
+                <h5>50% de reduction</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="form bg-success-subtle pb-5">
+        <div class="row d-flex align-items-center justify-content-center p-0">
+          <div class="col-md-8">
+            <h4
+              class="d-flex justify-content-center align-items-center mb-0 pt-5 text-decoration-underline"
+              style="font-family: 'Cinzel', sans-serif"
+            >
+              Contactez nous
+            </h4>
+            <form class="row g-3" id="form">
+              <div class="col-md-12">
+                <label for="inputEmail4" class="form-label">Nom</label>
+                <input type="email" class="form-control" id="inputEmail4" />
+              </div>
+
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress"
+                  placeholder=""
+                />
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Message</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress2"
+                  placeholder=""
+                />
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-4 d-flex justify-content-center">
+            <img
+              src="images/background3-removebg-preview.png"
+              class="bras-casque"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section
+        id="footer"
+        style="background-color: rgb(26, 64, 61); color: white"
+        class="p-4"
+      >
+        <div
+          class="container text-center d-flex justify-content-center gap-4 align-items-center"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <p>&copy; 2025 YVALSHOP. Tous droits réservés.</p>
+              </div>
+              <div class="col-12 col-md-6">
+                <ul class="list-inline d-flex gap-3 justify-content-center">
+                  <li><i class="fa-brands fa-facebook"></i></li>
+                  <li><i class="fa-brands fa-whatsapp"></i></li>
+                  <li><i class="fa-brands fa-twitter"></i></li>
+                  <li><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
