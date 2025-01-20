@@ -12,7 +12,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-
   background-color: rgb(66, 174, 198);
   padding: 0px 30px;
   margin: 40px;
@@ -52,6 +51,7 @@ body {
 .img-fluid2 {
   max-width: 100%;
   max-height: 212%;
+  margin-bottom: 114px;
 }
 .card-title {
   margin-bottom: 10px;
@@ -70,7 +70,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .bras-casque {
     display: none;
   }
@@ -106,6 +106,19 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 768px) {
+  #bg-danger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .img-fluid2 {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 89px;
   }
 }
