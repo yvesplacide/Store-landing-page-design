@@ -1,3 +1,4 @@
+/* Affichage desktop */
 body {
   box-sizing: border-box;
   padding: 0;
@@ -20,7 +21,7 @@ body {
   display: flex;
   align-items: center;
 }
-.img-fluid {
+#img-bg1 {
   bottom: 0;
   right: 0;
   max-width: 100%;
@@ -35,20 +36,13 @@ body {
 #card {
   padding: 0;
 }
-#bg-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 165px;
-  padding-bottom: 59px;
-}
-#texte-info {
+#reduction {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-left: 100px;
 }
-.img-fluid2 {
+#img-bg2 {
   max-width: 100%;
   max-height: 212%;
   margin-bottom: 114px;
@@ -60,7 +54,7 @@ body {
   margin-left: 80px;
   padding-top: 0;
 }
-.bras-casque {
+#img-bg3 {
   width: 67%;
   height: 382px;
   margin-top: 0;
@@ -70,24 +64,31 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+/* Affichage mobile */
 @media (max-width: 767px) {
-  .bras-casque {
+  h1 {
+    font-size: 20px;
+  }
+  #text-reduction {
+    font-size: 17px !important;
+  }
+  #img-bg3 {
     display: none;
   }
-  .img-fluid {
+  #img-bg1 {
     display: none;
   }
-  .img-fluid2 {
+  #img-bg2 {
     display: none;
   }
-  #texte-info {
+  #reduction {
     padding: 15px;
     text-align: center;
   }
   #child-heros {
     height: auto;
     padding: 20px 30px;
-    margin: 40px;
+    margin: 55px 40px 20px 40px;
   }
   #form {
     margin: 20px;
@@ -106,19 +107,5 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
-}
-
-@media (min-width: 768px) {
-  #bg-danger {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
-  .img-fluid2 {
-    max-width: 100%;
-    max-height: 100%;
-    margin-bottom: 89px;
   }
 }
